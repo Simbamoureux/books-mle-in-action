@@ -38,4 +38,34 @@ Use the process to deliver great ML projects ! ML that adresses a business probl
 
 <img width="732" alt="Capture d’écran 2024-05-06 à 12 09 16" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/60eec623-e296-40b2-a5d6-dfd54f125aa8">
 
+## Your data could use some MLE
 
+### A foundation of simplicity
+
+Focus on the simplest solution that solves the business's problem. **This concept is the foundation of MLE upon which all other aspects are built**. \
+The only people that care on how a problem was solved are other data scientists, not stakeholders. A simpler solution has simpler maintenance.
+
+<img width="732" alt="Capture d’écran 2024-05-07 à 11 44 40" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/607e6f76-d587-4143-8515-ff725b08d21d">
+
+When you have to maintain solutions, complex, state of the art approaches lose their appeal because you're the one having to deal with this complex solution.
+
+### Co-opting principles of Agile software development
+
+Agile and Devops brought the world a demonstrable paradigm of successful engineering. Can we adapt this approach to DS work ?
+
+<img width="732" alt="Capture d’écran 2024-05-07 à 11 50 06" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/db9ceb19-ecbf-427d-9a50-3192ad823546">
+
+#### Communication and cooperation
+
+A focus on people is necessary for successful ML work. This is even more true than for software work because of the complexity of what is being built, usually the layperson is very foreign to the result of ML/DS work and fitting the needs, and communicating is even more important than for software projects. \
+2 biggest factors on the amount of **rework**: 
+- Amount of collaborative involvement between the ML and business teams
+- Amount of communication within the ML team
+Lone wolf behaviour is *risky* for most projects.
+
+<img width="732" alt="Capture d’écran 2024-05-07 à 11 54 52" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/90ee5f27-0bdb-441c-81e1-963f3cf768cd">
+
+#### Embrace change
+
+Be prepared for inevitable change to occur. Goals shift, assumptions are shown to be wrong. Sometimes even the use of ML to solve a problem can be put in question. \
+Planning for this helps focusing on solving problems. This forces the team to work in a modular approach.
