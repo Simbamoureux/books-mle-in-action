@@ -69,3 +69,53 @@ Lone wolf behaviour is *risky* for most projects.
 
 Be prepared for inevitable change to occur. Goals shift, assumptions are shown to be wrong. Sometimes even the use of ML to solve a problem can be put in question. \
 Planning for this helps focusing on solving problems. This forces the team to work in a modular approach.
+
+## Before you model : Planning and scoping a project
+
+Contrary to academic setting : A company DS project is highly collaborative and peer-driven. *Focus more on the what than the how*. \
+With adequate scoping, you have fewer **different approaches** to validate, which decreases the time spent building a solution.
+- Early and often feedback needs to be received by the stakeholders.
+- Also, each new feature development has a demo, and acceptance testing by the subject matter expert
+  
+<img width="767" alt="Capture d’écran 2024-05-14 à 11 19 34" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/75c9ced4-b132-42ad-b7b8-b553becdc358">
+
+### Planning: You want me to predict what ?
+
+Planning a project is not in contradiction with agile as long as the project plan is not too rigid to accommodate changes.
+
+Don't blind trust your metrics : Do not rely on those metrics alone, supplement them with additional means of getting subjective measurements of the prediction's efficacy. Add vizualizations and demos. Validate results with SME, before larger demos with execs.
+
+#### Basic planning for a project
+
+**Why are we building this ?** Should be the main question of the first meetings. Answering this will define the expectations of the output of any ML work. It can also help with the measurement of the model's performance. \
+
+This question should uncover assumptions of the business on how the solution should behave. e.g : The recommender system should exclude old items that are no longer in the catalog.
+- assumption of business knowledge : The ML team often doesn't hold all the business knowledge necessary for the project -> Include SME in the loop !
+- Assumption of data quality : The data isn't always reliable and uncovering all the quirks in the data can be accelerated by talking with SME that know the data and underlying concepts.
+- Assumption of functionnality : Valid ideas for improvement always come from meetings with stakeholders to improve the model on things that are not linked to metrics
+- Don't go "full nerd" : Assuming that people in the meeting understand the finer details of a solution as anything but a random collection of buzzwords is a disservice to yourself as an ML practitioner and to the audience. Use abstract terms, and link them to business outputs.
+
+#### That first meeting
+
+Don't think of implementation just yet ! Focus on the *why* and *what* rather than the *how*. 
+Tips : 
+- Try to understand what is being done now to address the problem : It often reveals a lot of useful requirements.
+- Understand how the people work now on the problem
+
+#### Plan for demos - Lots of demos
+
+For most projects involving ML of sufficient complexity, far too many details and nuances exist to confidently build out dozens of features without having them reviewed. Only the ML team cares about the metrics, the SME will add another output to steer the work and improve actual usefulness of the project.
+
+#### Experimentation by solution building: Wasting time for pride’s sake
+
+It can be tempting to choose a few approaches and algorithms, and pit multiple people in the team to build the best solution, but the size of the batch is too big and need to be split in multiple phases with comparisons and demos (internally or with the cross functional team).
+
+Divert resources on the most promising models so all the features can be built as fast as possible. Frequent demos even with features that are not finalized enables valuable feedback from SME, and narrowly focusing on the fewest and potentially most succesful options as early as possible allow a lean team to deliver successful projects.
+
+<img width="767" alt="Capture d’écran 2024-05-14 à 12 17 32" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/e9391cc1-22f8-4120-9974-2e5a1e7ba2f4">
+
+### Experimental scoping : Setting expectations and boundaries
+
+
+
+  
