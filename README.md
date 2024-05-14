@@ -119,4 +119,26 @@ Divert resources on the most promising models so all the features can be built a
 Be clear about the expectations from experimentation. The goal is to produce a simulation of the end product that allows for unbiased comparison of the solutions considered.
 At this stage you're interested by the performance of the solution and the dfficulty of developing the full solution.
 
+What can be helpful is to use the first week or two to setup an experimentation testing plan that can be validated using a very simplistic model. To validate that we have an output and can evaluate it. This approach can help uncover complexities without spending first 4 weeks of data exploration etc...
+
+Timeboxing experiments in sprints ensures that a decision can be taken quickly. Some DS could say that this is dumb, how can we really know if a solution is any good before tuning or working on it enough ? It's a fair point but this approach maximizes the amount on time spent on the final solution.
+It's also less painful to throw away 2 weeks of work rather than 3 months.
+
+<img width="767" alt="Capture d’écran 2024-05-14 à 14 00 38" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/39c930b1-37ed-4c4a-a2b4-0ad8de98e2d9">
+
+How to define which experiments to run : 
+- Brainstorm and list ideas
+- Then score each one on risk and time to implement (low/medium/high)
+- Work only on Low / medium risk and complexity ideas
+
+**The goal of experimentation is to find the simplest approach that solves the problem, not use sophisticated tech**
+
+At the end of this experimental phase, a PoC has been done, the solution is *understood* but not *implemented* yet.
+You should then have identified risk factors and know : 
+- How long will this take to build ?
+- How much will this cost to run ?
+
+To choose the best approach, you can weight the performance with the complexity, to obtain a final score where lowest is better.
+<img width="767" alt="Capture d’écran 2024-05-14 à 14 46 08" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/fb23f1c4-14ed-40e3-ad97-7acc291378ce">
+
   
