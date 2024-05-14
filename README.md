@@ -116,6 +116,7 @@ Divert resources on the most promising models so all the features can be built a
 
 ### Experimental scoping : Setting expectations and boundaries
 
-
+Be clear about the expectations from experimentation. The goal is to produce a simulation of the end product that allows for unbiased comparison of the solutions considered.
+At this stage you're interested by the performance of the solution and the dfficulty of developing the full solution.
 
   
