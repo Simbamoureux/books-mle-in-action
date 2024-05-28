@@ -141,4 +141,39 @@ You should then have identified risk factors and know :
 To choose the best approach, you can weight the performance with the complexity, to obtain a final score where lowest is better.
 <img width="767" alt="Capture d’écran 2024-05-14 à 14 46 08" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/fb23f1c4-14ed-40e3-ad97-7acc291378ce">
 
-  
+## Before you model : Communication and logistics of projects
+
+Good tool : Communication path to understand a BU problem : 
+- Why : Do you want this built ? (urgency / importance / will this be used ?)
+- What do you expect the solution to do ? (basic functionnality / Scope of the project / Expected output)
+- How is it done now ? (sucess criteria / Identifies SMEs / Critical features)
+- What would be a perfect solution for this ? (accuracy expectations / realistic or attainable solution expectations)
+- When would this solution become relevant ? (Is it worth doing ? If superseded by something else, maybe this should not be done)
+
+Note that we don't talk about how we could do this just yet !
+
+### Communication : Defining the problem
+
+The scoping meeting should really focus on the why and not the how ! \n 
+Keep in mind that the meeting is successful if the ML team gets the research and scoping details, but the business should get a review schedule. 
+
+The other aspect of collectively discussing the project's key principles is to help define the simplest solution that solves the problem. 
+
+<img width="630" alt="Capture d’écran 2024-05-28 à 11 45 33" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/f4904ea4-f1cd-4d76-8d0f-79d45d0730b8">
+
+#### Understanding the problem
+
+What can be useful to set expectations on how the system should work is to map user-focused journeys that are simple architectural focused journeys. \
+Diagrams like this one are useful for conducting a planning discussion with a broader team. Breaking out the discussion from the point of view of the user includes even the non technical stakholders who will have insights.
+
+<img width="548" alt="Capture d’écran 2024-05-28 à 11 52 41" src="https://github.com/Simbamoureux/books-mle-in-action/assets/18716146/0f450f0a-84d0-4364-ba63-14cdaf44ae17">
+
+Don't ignore ideas, but also keep in mind that the MVP should not include Nice to haves, not every idea should make it into the experimentation plan.
+
+Afterwards you can define the ideal end-state, and it is useful to understand what that could look like even if unfeasible.
+
+**Scope creep** : If the discussion is flowing and ideas emerge, that's a really good thing but that leads also to a lot of ideas and the size and complexity of a project can spiral out of control. That's an almost certain assassination of a project. *ML Death by a thousand requests*
+
+- Find a champion SME for the project ! To answer questions, help provide ideation. This should not be the executive or project owner !
+
+
