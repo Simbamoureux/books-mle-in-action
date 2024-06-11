@@ -176,4 +176,41 @@ Afterwards you can define the ideal end-state, and it is useful to understand wh
 
 - Find a champion SME for the project ! To answer questions, help provide ideation. This should not be the executive or project owner !
 
+#### Post research phase discussion (update meeting)
 
+Don't discuss the implementation details of algorithms, don't mention the performances of algorithms that will take 2 years to build. Show the results in a manner that speaks to the business and distill the details needed for the next phase : Experimentation.
+Show with each potential solution, what can and can't be done by the model and when can they expect a demo.
+
+#### Post experimentation phase (SME/UAT Review)
+
+Two prototypes are built. Lay the predictions out and show off what the solution looks like !
+Show mockup of core features to the entire team but **don't do the full implementation**. You can also present an updated user-experience diagram. \ 
+Every member of the team should now be aware of the elements and moving pieces. And ensures that the team understands which elements should be scoped.
+
+#### MVP Review (Full demo with UAT)
+- Code is tested
+- The system functions as a whole in an evaluation environment with production scale data
+- All agreed upon features that have been planned are complete and perform as designed
+
+Metrics are useful but to really gauge a solution, when possible, a show of the actual result to the SME is best. Sometimes you can have discrepancies between the metrics and qualitative review of SMEs. This can uncover glaring issues not tracked by the metric.
+
+Important : If you never have an issue during those demos meeting, it should setup an alarm, it may mean that the team has a confirmation bias, and showing the result to someone else in the company that has no stake in the project could help getting actual challenging reviews.
+
+#### 4.2 Don't waste our time : Meeting with cross functional teams
+
+- Experimental update meeting : Do we know what we're doing here ?
+    - This is the second to last time for the team members to graciously raise a white flag if they've discovered that the solution is untenable.
+    - The overriding question is "Can we actually figure this out ?". This is up to the DS team to report
+    - We should share how is the progress toward the prototype coming along and what are the risks uncovered so far.
+- SME review / prototype review : Can we solve this ?
+    - Most critical meeting. Look for consensus on the recommended approach.
+- Development progress reviews : Is this going to work ?
+    - Opportunities to "right the ship" during development.
+    - As development goes on, this meeting should be shorter and more focused on integration
+- MVP Review : Did you build what was asked for ?
+    - UAT by external team can bring a fresh view to the project
+- Preprod review :
+    - Everyone has one last chance to vet the built product "did we build what we set out to build?"
+    - Compare original plans and final solution. Check that all the core features are here and work
+
+#### Setting limits on your experimentation
